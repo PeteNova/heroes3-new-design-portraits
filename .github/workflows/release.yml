@@ -1,0 +1,57 @@
+name: Mod release
+
+# Follows the vcmi-mods repository convention: pushing to a branch named "vcmi-<version>"
+# (e.g. vcmi-1.7) publishes a release tagged "<version>" with two assets:
+#   - mod.json                                    (mod descriptor for the VCMI repository listing)
+#   - <repo>-vcmi-<version>.zip                   (installable mod archive)
+on:
+  push:
+    branches:
+      - 'vcmi-*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: mod-release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate mod.json files
+        run: |
+          python3 - <<'EOF'
+          import glob, json
+          files = ['mod.json'] + sorted(glob.glob('Mods/*/mod.json'))
+          for path in files:
+              with open(path, encoding='utf-8') as fh:
+                  json.load(fh)
+              print('OK', path)
+          print(f'{len(files)} mod.json files parsed successfully')
+          EOF
+
+      - name: Package mod archive
+        run: bash .github/package.sh
+
+      - name: Resolve release tag
+        run: echo "RELEASE_TAG=${GITHUB_REF_NAME#vcmi-}" >> $GITHUB_ENV
+
+      - name: Upload release assets
+        uses: ncipollo/release-action@v1
+        with:
+          tag: ${{ env.RELEASE_TAG }}
+          name: ${{ env.RELEASE_TAG }}
+          body: |
+            Automated mod build for branch `${{ github.ref_name }}`.
+            Commit: `${{ github.sha }}`
+          artifacts: mod.json, dist/*.zip
+          allowUpdates: true
+          replacesArtifacts: true
+          makeLatest: true
+          commit: ${{ github.sha }}

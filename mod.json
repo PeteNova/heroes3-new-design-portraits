@@ -1,0 +1,21 @@
+{
+	"name": "Heroes III New Design Portraits",
+	"description": "206 refreshed hero portraits for VCMI: AI-assisted reinterpretations of the classic Heroes III artwork, selected, cropped and packaged as one mod with 13 selectable faction submods. Large and small portraits at 1x, 2x, 3x and 4x, with original-style borders on small portraits. No gameplay changes. The Cove, Factory and Bulwark submods are disabled by default and require the corresponding HotA modules.",
+	"author": "PeteNova",
+	"contact": "https://github.com/PeteNova/heroes3-new-design-portraits",
+	"licenseName": "CC BY-NC-SA 4.0",
+	"licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed",
+	"version": "2.0.0",
+	"modType": "Graphical",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"keepDisabled": false,
+	"changelog": {
+		"2.0.0": [
+			"Single mod with 13 selectable submods, replacing the 13 standalone v1 packs (206 heroes).",
+			"Declared conflicts with overlapping portrait packs and with the legacy standalone New Design packs.",
+			"Small portraits carry the exact 1-pixel original-style border at 1x, 2x, 3x and 4x; large portraits preserved from the September release."
+		]
+	}
+}

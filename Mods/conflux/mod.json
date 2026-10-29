@@ -1,0 +1,22 @@
+{
+  "name": "Conflux",
+  "description": "Remade portraits for all 16 Conflux heroes, with original-style small-portrait borders at 1x-4x.",
+  "version": "2.0.0",
+  "modType": "Graphical",
+  "author": "Heroes III New Design",
+  "keepDisabled": false,
+  "compatibility": {
+    "min": "1.7.0"
+  },
+  "conflicts": [
+    "ensrick-portraits",
+    "heroes3-new-design-portraits-conflux-v1",
+    "portraits-packs"
+  ],
+  "changelog": {
+    "2.0.0": [
+      "Packaged as a selectable Heroes III New Design submod.",
+      "Added exact original-style small portrait borders at 1x-4x and explicit conflicts with overlapping packs."
+    ]
+  }
+}

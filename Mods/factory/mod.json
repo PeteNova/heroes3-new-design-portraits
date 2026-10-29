@@ -1,0 +1,23 @@
+{
+  "name": "Factory",
+  "description": "Remade portraits for all 16 Factory heroes, with original-style small-portrait borders at 1x-4x. Requires HotA (hota.factory); off by default.",
+  "version": "2.0.0",
+  "modType": "Graphical",
+  "author": "Heroes III New Design",
+  "keepDisabled": true,
+  "depends": [
+    "hota.factory"
+  ],
+  "compatibility": {
+    "min": "1.7.0"
+  },
+  "conflicts": [
+    "heroes3-new-design-portraits-factory-v1"
+  ],
+  "changelog": {
+    "2.0.0": [
+      "Packaged as a selectable, off-by-default HotA submod.",
+      "Added exact original-style small portrait borders at 1x-4x and explicit conflicts with overlapping packs."
+    ]
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "tag": "portraits-2026-09-25",
+  "assets": [
+    {
+      "name": "heroes3-new-design-portraits-bulwark-v1.zip",
+      "size": 5948165,
+      "digest": "sha256:1ffa10ffd47ded97e2df71ffd419f5ae097b8e9496f4a95fd213ca22fc84b330",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-bulwark-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-castle-v1.zip",
+      "size": 5198367,
+      "digest": "sha256:051a400a11122499f879f4fd56cdc7daf303098452d050074d6bbeda02badd3c",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-castle-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-conflux-v1.zip",
+      "size": 4979719,
+      "digest": "sha256:638c6628a49f427b0e3d986abd7f4319f3064136283c7be919a5baa9247b43bb",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-conflux-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-cove-v1.zip",
+      "size": 5419900,
+      "digest": "sha256:e091aa5e94a49e0d712cf653ebc6ce7acb651746e4658498e3a9ece36d36fe98",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-cove-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-dungeon-v1.zip",
+      "size": 5130581,
+      "digest": "sha256:7eba25c7a9ab70b19ca9d9578bb9fd6df47641b79f5fb9f51104ff24e1c083e4",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-dungeon-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-factory-v1.zip",
+      "size": 5481158,
+      "digest": "sha256:c58e415a0c72194f5fd06cc954699c509f865754cc763af2b2ada6e7aee12095",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-factory-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-fortress-v1.zip",
+      "size": 5766854,
+      "digest": "sha256:f01e3ae185c8abdf423ab2331605a833af51a7777a96e7d94ee2ef7c8bc19d60",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-fortress-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-inferno-v1.zip",
+      "size": 4955562,
+      "digest": "sha256:72396e33b5db15b805959d5769dc7fbf04e7ce8e544d3ebf9ce4d88a4585074d",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-inferno-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-necropolis-v1.zip",
+      "size": 4679788,
+      "digest": "sha256:b4cfa2b34f8f56d3ac97f35f0a18419411bdd55e1b5a8f512b456373226c2b8b",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-necropolis-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-rampart-v1.zip",
+      "size": 5098663,
+      "digest": "sha256:7972c55925e22b6603e4f6bd7bb61ec4e1b9aafa51bd5057311bf1cfabfebb0f",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-rampart-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-specials-v1.zip",
+      "size": 3781255,
+      "digest": "sha256:e70a985bab643fec33a728a54a1c82cf90ed3af83610840ec8c2634c54e6d86e",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-specials-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-stronghold-v1.zip",
+      "size": 4961310,
+      "digest": "sha256:a2defa225c85ff0587578680d445fd1340b8c94431bcf4206bb34abb9e67ef87",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-stronghold-v1.zip"
+    },
+    {
+      "name": "heroes3-new-design-portraits-tower-v1.zip",
+      "size": 4856291,
+      "digest": "sha256:0dee93da62bb2b49c1a863ffe8a05c9b53fa3dd5bf4ed5eca83578481d5b14e4",
+      "browser_download_url": "https://github.com/PeteNova/heroes3-new-design/releases/download/portraits-2026-09-25/heroes3-new-design-portraits-tower-v1.zip"
+    }
+  ]
+}
